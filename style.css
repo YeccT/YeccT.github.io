@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    /* background-image: url(Resimler/B87.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;*/
+}
+
+.ust-kutu {
+    width: 100%;    
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    user-select: none;
+}
+
+.hakkinda-kutu{
+    user-select: none;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 90px;
+    width: 1000px;
+    height: 1500px;
+    background-color: black;
+    /* border: 2px red dashed; */
+    padding-top: 10px;
+    color: white;
+    display: inline-flex;
+}
+
+.hakkinda-kutu img{
+    position: absolute;  /*kutuya içinde rahatça konumlandırmak için*/
+    margin-top: auto;
+    justify-content: center;
+    width: 550px;
+    height: auto;
+}
+
+.hakkinda-yazi-container{
+    width: 1650px;
+    height: 850px;
+    position: absolute;
+    user-select: none;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 150px;
+    padding-left: 100px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
+
+}
+
+.yazilar{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-right: 50px;
+    position: absolute;
+    width: 1250px;
+
+}
